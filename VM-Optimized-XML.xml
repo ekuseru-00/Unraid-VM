@@ -12,14 +12,14 @@
       <stimer state='on'/>
       <reset state='on'/>
 
-      <!-- A custom vendor ID like 1234567890ab makes the VM’s CPU easier to identify for compatibility or testing -->
+<!-- A custom vendor ID like 1234567890ab makes the VM’s CPU easier to identify for compatibility or testing -->
       <vendor_id state='on' value='1234567890ab'/>
 
       <frequencies state='on'/>
     </hyperv>
 
     <kvm>
-      <!-- tells the VM to hide its virtualization status from the guest, helping prevent detection that it's running in a virtual environment -->
+<!-- tells the VM to hide its virtualization status from the guest, helping prevent detection that it's running in a virtual environment -->
       <hidden state='on'/>
     </kvm>
 
@@ -34,7 +34,7 @@
     <timer name='hypervclock' present='yes'/>
     <timer name='hpet' present='no'/>
 
-    <!-- tsc timer VM enables faster and more accurate timing by using the host's hardware clock -->
+<!-- tsc timer VM enables faster and more accurate timing by using the host's hardware clock -->
     <timer name='tsc' present='yes' mode='native'/>
 
   </clock>
