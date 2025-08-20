@@ -5,7 +5,7 @@ Useful commands, quirks, and troubleshooting your Unraid VM
 Here is an ongoing list of XML customizations that you can apply to your VM if you encounter some of this errors or issues
 
 * [VM XML Optimization](https://github.com/ekuseru-00/Unraid-VM/blob/main/VM-Optimized-XML)
-* [DMA Mapping Failed]
+* [DMA Mapping Failed](https://github.com/ekuseru-00/Unraid-VM/blob/main/DMA-Mapping.xml)
 
 # Append Customizations
 Here is an ongoing list of append commands that you can add to ensure your VM runs or runs smoothly
