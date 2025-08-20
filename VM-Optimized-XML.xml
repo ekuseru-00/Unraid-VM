@@ -1,4 +1,5 @@
 <!-- Compare you VM's XML and see how you compare to this set-up -->
+<!-- Remove the comments when you use it to your VM so it will look cleaner -->
 
 <features>
     <acpi/>
