@@ -1,0 +1,5 @@
+<!-- Add this line, you might want to adjust it to 39 if it does not let you boot -->
+
+<cpu>
+  <maxphysaddr mode='passthrough' limit='40'/>
+</cpu>
