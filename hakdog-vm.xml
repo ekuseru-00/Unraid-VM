@@ -30,6 +30,8 @@
     <type arch='x86_64' machine='pc-i440fx-9.2'>hvm</type>
     <loader readonly='yes' type='pflash' format='raw'>/usr/share/qemu/ovmf-x64/OVMF_CODE-pure-efi.fd</loader>
     <nvram format='raw'>/etc/libvirt/qemu/nvram/d8fd4cf0-829c-c931-7e91-f1aff9b8781b_VARS-pure-efi.fd</nvram>
+    <!-- ADDED -->
+    <smbios mode='host'/>
   </os>
   <features>
     <acpi/>
